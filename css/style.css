@@ -1,0 +1,29 @@
+body{
+    max-width: 1200px;
+    margin: 5px 5px 5px 5px;
+}
+
+.emoji{
+    display:flex;
+    flex-direction: row;
+    gap:15px;
+    font-size: 50px;
+    flex-wrap:wrap;
+}
+
+.emojicard{
+    background-color:#ffffff;
+    padding:5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    display:flex;
+    flex-direction:column;
+}
+
+.actualemoji{
+    align-self:center;
+}
+
+.code{
+    font-size:25px;
+}
